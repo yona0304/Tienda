@@ -3,9 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('auth.login');
+    return view('welcome');
 });
 
-Route::get('/inicio', function () {
-    return view('welcome');
+Route::get('/iniciar-sesion', function () {
+    return view('auth.login');
 });
